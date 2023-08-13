@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    user-select: none;
+}
+#demo {
+    -webkit-box-shadow: 100px 100px 100px 50px rgba(41,255,73,0.74); 
+    box-shadow: -8px -950px 150px 350px rgba(41,255,73,0.74);
+    border-radius: 100%;
+    }
