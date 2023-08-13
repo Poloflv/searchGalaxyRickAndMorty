@@ -52,12 +52,12 @@ function App() {
         <img  className='z-10 w-10/12 mx-auto relative h-[25rem] top-[-10rem]  sm:h-[34rem] sm:top-[-14rem] md:h-[40rem] md:top-[-15rem] lg:h-[32rem] lg:top-[-12rem] lg:w-1/2 xl:h-[42rem] 2xl:h-[40rem]' src="/portal.png" alt="" />
         <img  className='z-20 w-10/12 mx-auto relative top-[-23rem] sm:top-[-30rem] md:top-[-37rem] lg:top-[-25rem] lg:w-1/2 xl:top-[-34rem]' src="/title2.png" alt="" />
         <div id='demo' className='bg-fixed top-[45rem] rounded-full h-[10rem] w-[10rem] mx-auto z-0'></div>
-        <section className='relative top-[-12rem]'>
+        <section className='relative top-[-12rem] lg:top-[-18rem]'>
         <LocationForm handleSubmit={handleSubmit}/>
         </section>
       </header>
       <main  className='bg-[url(/backgroundpage.png)] bg-cover min-h-screen p-2 '>
-        <section className='relative top-[-6rem]'>
+        <section className='relative top-[-6rem] lg:top-[-10rem]'>
         <LocationInfo currentLocation={currentLocation}/>
         <ResidentList  currentLocation={currentLocation} residents={currentLocation?.residents ?? [] }/>
 
