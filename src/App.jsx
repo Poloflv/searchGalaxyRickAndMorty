@@ -49,8 +49,8 @@ function App() {
     <>
       {/* <Navbar/> */}
       <header className='bg-[url(/backgroundheader.png)] bg-cover flex justify-center flex-col'>
-        <img  className='z-10 w-10/12 mx-auto relative h-auto top-[-10rem]  sm:h-auto sm:top-[-14rem] md:h-auto md:top-[-15rem] lg:h-auto lg:top-[-12rem] lg:w-1/2 xl:h-auto 2xl:h-auto' src="/portal.png" alt="" />
-        <img  className='z-20 w-10/12 mx-auto relative top-[-19rem] sm:top-[-30rem] md:top-[-37rem] lg:top-[-25rem] lg:w-1/2 xl:top-[-34rem]' src="/title2.png" alt="" />
+        <img  className=' z-10 w-10/12 mx-auto relative h-auto top-[-10rem]  sm:h-auto sm:top-[-14rem] md:h-auto md:top-[-15rem] lg:h-auto lg:top-[-12rem] lg:w-1/2 xl:h-auto 2xl:h-auto 2xl:max-w-[700px]' src="/portal.png" alt="" />
+        <img  className='z-20 w-10/12 mx-auto relative top-[-19rem] sm:top-[-30rem] md:top-[-37rem] lg:top-[-25rem] lg:w-1/2 xl:top-[-34rem] 2xl:max-w-[700px]' src="/title2.png" alt="" />
         <div id='demo' className='bg-fixed top-[45rem] rounded-full h-[10rem] w-[10rem] mx-auto z-0'></div>
         <section className='relative top-[-12rem] lg:top-[-18rem]'>
         <LocationForm handleSubmit={handleSubmit}/>
